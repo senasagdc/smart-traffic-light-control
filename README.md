@@ -90,8 +90,8 @@ Time Zone: 00:00 - 06:00 [NIGHT MODE]
 You need JDK 8 or newer.
 
 ```bash
-git clone https://github.com/senasagdc/smart-traffic-light-control.git
-cd smart-traffic-light-control
+git clone https://github.com/senasagdc/softwarearchitecture-traffic-light-control.git
+cd softwarearchitecture-traffic-light-control
 javac -d out src/trafficlight/*.java
 java -cp out trafficlight.Main
 ```
