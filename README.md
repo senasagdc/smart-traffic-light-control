@@ -111,7 +111,6 @@ Countdowns run in real seconds, so a full run takes about 1.5 minutes.
 
 </details>
 
-Diagrams were created with PlantUML.
 
 ## Project structure
 
@@ -139,7 +138,3 @@ docs/uml/                        # class, sequence, use case and state diagrams
 - **Blocking timing.** `Thread.sleep()` makes the simulation slow and hard to test. An injectable clock, or a scheduler, would let tests run instantly.
 - **Hard-coded schedule.** The daily program and durations live in code. They could be loaded from a config file, or chosen automatically from real traffic data (e.g. the camera feeding a density-based strategy).
 
-## Team
-
-- **Sena Sağdıç** ([GitHub](https://github.com/senasagdc) · [LinkedIn](https://linkedin.com/in/senasagdc))
-- **Ayşe Süeda Culfa**
