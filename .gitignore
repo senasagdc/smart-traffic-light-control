@@ -1,0 +1,14 @@
+# Compiled classes
+out/
+*.class
+
+# IDE
+.idea/
+.vscode/
+.settings/
+.project
+.classpath
+bin/
+
+# OS
+.DS_Store
